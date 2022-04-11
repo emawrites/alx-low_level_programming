@@ -21,7 +21,7 @@ int main(void)
 		putchar(alphabet);
 	}
 
-	putchart('\n');
+	putchar('\n');
 
 	return (0);
 }
