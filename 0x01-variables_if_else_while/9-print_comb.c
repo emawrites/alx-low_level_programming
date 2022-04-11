@@ -9,6 +9,7 @@
  */
 
 int main(void)
+
 {
 	int number:
 
@@ -18,7 +19,7 @@ int main(void)
 	
 	if (number == 57)
 	{
-	break;
+		break;
 	}
 
 	putchar(',');
