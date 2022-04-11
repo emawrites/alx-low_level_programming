@@ -10,20 +10,22 @@
 
 int main(void)
 {
-	int n:
+	int number:
 
-	for (n = 48; n <= 57; n++)
+	for (number = 48; number <= 57; number++)
 	{
-		putchar(n);
+		putchar(number);
 	
-	if (n == 57)
+	if (number == 57)
 	{
-		break;
+	break;
 	}
 
 	putchar(',');
-	putchar(' ');
+	putchar (' ');
 	}
+
+	putchar('\n');
 
 	return (0);
 }
