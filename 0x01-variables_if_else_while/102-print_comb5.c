@@ -12,7 +12,7 @@ int main(void)
 
 	for (ema1 = 0; ema1 <= 98; ema1++)
 	{
-	for (ema2 = num1 + 1; ema2 <= 99; ema2++)
+	for (ema2 = ema1 + 1; ema2 <= 99; ema2++)
 	{
 		putchar((ema1 / 10) + '0');
 		putchar((ema1 % 10) + '0');
