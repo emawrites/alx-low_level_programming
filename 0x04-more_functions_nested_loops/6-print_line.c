@@ -3,7 +3,7 @@
 /**
  * print_line - draws a straight line in terminal
  * @n: takes an integer
- * Return: Always 0.
+ * Return: void
  */
 
 void print_line(int n)
@@ -14,13 +14,8 @@ void print_line(int n)
 	{
 	for (i = 0; i < n; i++)
 	{
-		_putchar('95');
+		_putchar('_');
 	}
-	_putchar ('\n');
 	}
-
-	else
-	{
-		_putchar ('\n');
-	}
+	_putchar('\n');
 }
