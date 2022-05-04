@@ -7,16 +7,15 @@
  * Return: void
  */
 
+
 void _puts(char *str)
 {
-	char *c;
-	int n;
+	int i = 0;
 
-	c = str;
-
-	for (n = 0; c[n]; n++)
+	while (str[i])
 	{
-	_putchar (c[n]);
+		_putchar(str[i]);
+		i++;
 	}
 	_putchar('\n');
 }
