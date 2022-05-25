@@ -13,7 +13,7 @@
  * Description: singly linked list node structure
  * for ALX project.
  */
-typedef struct list_t
+typedef struct list_s
 {
 	char *str;
 	unsigned int len;
